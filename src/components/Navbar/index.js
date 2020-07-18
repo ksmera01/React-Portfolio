@@ -5,12 +5,16 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Pupster
+    <nav className="navbar navbar-expand-lg navbar-light headerColor navbarFont justify-content-end">
+      <Link className="navbar-brand" to="/"><img src="./assets/kslogo.png" alt="KS"></img>
+      Kevin Smeraglio
       </Link>
-      <div>
-        <ul className="navbar-nav">
+      <div className="nav item ml-auto mr-1"></div>
+      <div className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span className="navbar-toggler-icon"></span>
+      </div>
+      <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul className="navbar-nav text-center">
           <li className="nav-item">
             <Link
               to="/"
@@ -28,7 +32,7 @@ function Navbar() {
               to="/discover"
               className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
             >
-              Discover
+              Portfolio
             </Link>
           </li>
           <li className="nav-item">

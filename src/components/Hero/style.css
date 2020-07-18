@@ -22,12 +22,17 @@
   z-index: 2;
 }
 
-.hero h1, .hero h2 {
+.hero h1, .hero h2, .hero h3 {
   color: white;
+  font-family: 'Caladea', serif;
 }
 
 .hero h1 {
   font-size: 60px;
   padding-top: 140px;
   margin-top: 0;
+}
+
+.buttonSpacing{
+  margin-right: 5px;
 }

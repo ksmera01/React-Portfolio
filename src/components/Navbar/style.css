@@ -1,3 +1,21 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+
+.headerColor {
+  background-color: #ff9f76;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+  height: 55px;
+  width: 55px;
+}
+
+.navbarFont {
+  font-family: 'Permanent Marker', sans-serif;
+}
