@@ -3,8 +3,22 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import SkillBar from 'react-skillbars';
 
 function About() {
+  const skills = [
+    { type: "Java", level: 85 },
+    { type: "Javascript", level: 75 },
+  ];
+
+  // colors = {
+  //   bar: 'red',
+  //   title: {
+  //     text: '#abc123',
+  //     background: '#fff'
+  //   }
+  // }
+
   return (
     <div>
       <Hero backgroundImage="/assets/portfoliobackground.jpeg">
@@ -14,14 +28,14 @@ function About() {
         <br></br>
         <br></br>
         <div>
-          <a href="https://github.com/ksmera01" target="_blank" className="btn btn-dark btn-lg buttonSpacing"><i
+          <a href="https://github.com/ksmera01" rel="noreferrer noopener" target="_blank" className="btn btn-dark btn-lg buttonSpacing"><i
             className="fab fa-github"></i></a>
           <a href="tel:215-499-6566" className="btn btn-dark btn-lg glyphicon glyphicon-earphone buttonSpacing"><i className="fa fa-phone" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/kevin-smeraglio-b203391a/" target="_blank"
+          <a href="https://www.linkedin.com/in/kevin-smeraglio-b203391a/" rel="noreferrer noopener" target="_blank"
             className="btn btn-dark btn-lg buttonSpacing"><i className="fab fa-linkedin"></i></a>
-          <a href="mailto:ksmera01@gmail.com" target="_blank"
+          <a href="mailto:ksmera01@gmail.com" rel="noreferrer noopener" target="_blank"
             className="btn btn-dark btn-lg buttonSpacing"><i className="far fa-envelope"></i></a>
-          <a className="btn btn-dark btn-lg buttonSpacing" href="./assets/Kevin Smeraglio Resume-converted.pdf" target="_blank"
+          <a className="btn btn-dark btn-lg buttonSpacing" href="./assets/Kevin Smeraglio Resume-converted.pdf" rel="noreferrer noopener" target="_blank"
             role="button"><i className="fas fa-portrait"></i></a>
         </div>
       </Hero>
@@ -68,6 +82,13 @@ function About() {
               interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
               massa.
             </p>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col size="md-12">
+            <SkillBar skills={skills} />
           </Col>
         </Row>
       </Container>

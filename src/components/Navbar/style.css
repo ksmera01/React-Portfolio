@@ -4,6 +4,7 @@ nav.navbar.navbar-default {
 
 .headerColor {
   background-color: #ff9f76;
+  color: white;
 }
 
 .navbar-brand {
@@ -17,5 +18,12 @@ nav.navbar.navbar-default {
 }
 
 .navbarFont {
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: 'Black Ops One', cursive;
+  color: #4e6b87;
+}
+
+.centerLogo {
+  padding: 20px 40px;
+  height: 55px;
+  width: 55px;
 }
