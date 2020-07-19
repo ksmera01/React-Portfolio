@@ -49,33 +49,13 @@ function About() {
           <Col size="md-12">
             <p>
               <img src="/assets/headshot.jpg" alt="headshot" height="300px" width="211" align="left" border-radius="50px" hspace="20"></img>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-              consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-              sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-
+              Hello there! Welcome to my page! Let me take a second to introduce myself. My name is Kevin Smeraglio and I am a full stack web developer. I was born and raised in the Philadelphia area and currently reside right outside the city in Conshohocken with my beautiful wife, Brittany. I enjoy playing and watching sports, hanging out with family and friends and exploring the outdoors.
             </p>
             <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-              malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-              ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-              Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-              porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
+              Before coding, I attended Holy Ghost Preparatory School in Bensalem, PA and Gwynedd Mercy University in Ambler, PA, earning my degree in Business Administration. My first job of out college happened to be technology based as a Quality Assurance Analyst. From there, my passion for technology heightened as I continued to advance in the IT field. In this field, you commit to be being a lifelong learner which is something I thoroughly enjoy. In conjunction with that notion, I obtained a certificate from the University of Pennsylvania in Full Stack Development. With my new knowledge, I am excited to build meaningful web applications!
             </p>
             <p>
-              Etiam ut massa efficitur, gravida sapien non, condimentum sapien. Suspendisse massa
-              tortor, facilisis in neque sit amet, scelerisque elementum tortor. Nullam eget nibh
-              sit amet odio lobortis ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis.
-              Mauris et imperdiet urna, vitae lobortis dui. Nunc elementum elit mi, non mattis enim
-              congue at. Proin mi lectus, ullamcorper id hendrerit eu, ultricies vitae lacus. Nunc
-              vehicula, erat eget laoreet condimentum, felis ante malesuada leo, nec efficitur diam
-              nisi eget nisi. Cras arcu lacus, tristique in bibendum vitae, elementum eget lorem.
-              Maecenas vestibulum volutpat orci eu pharetra. Praesent vel blandit ante, nec faucibus
-              libero. Sed ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id dapibus
-              eros. Nullam tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla
-              interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
-              massa.
+              With all that being said, please click around, contact me using one of the buttons above, or use the Portfolio tab above to view my best work! Feel free to leave me any constructive criticism as I am always looking to improve. Happy coding! I look forward to connecting with you!
             </p>
           </Col>
         </Row>
