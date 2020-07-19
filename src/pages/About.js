@@ -7,17 +7,17 @@ import SkillBar from 'react-skillbars';
 
 function About() {
   const skills = [
-    { type: "Java", level: 85 },
-    { type: "Javascript", level: 75 },
+    { type: "HTML5", level: 100 },
+    { type: "Javascript", level: 85 },
+    { type: "jQuery", level: 80 },
+    { type: "CSS3", level: 85 },
+    { type: "Bootstrap", level: 90 },
+    { type: "node.js", level: 75 },
+    { type: "express.js", level: 70 },
+    { type: "MongoDB", level: 70 },
+    { type: "MySQL", level: 70 },
+    { type: "React.js", level: 60 },
   ];
-
-  // colors = {
-  //   bar: 'red',
-  //   title: {
-  //     text: '#abc123',
-  //     background: '#fff'
-  //   }
-  // }
 
   return (
     <div>
@@ -39,7 +39,7 @@ function About() {
             role="button"><i className="fas fa-portrait"></i></a>
         </div>
       </Hero>
-      <Container style={{ marginTop: 30 }}>
+      <Container style={{ marginTop: 30 }} >
         <Row>
           <Col size="md-12">
             <h1>About Me</h1>
@@ -48,17 +48,12 @@ function About() {
         <Row>
           <Col size="md-12">
             <p>
+              <img src="/assets/headshot.jpg" alt="headshot" height="300px" width="211" align="left" border-radius="50px" hspace="20"></img>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
               consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
               parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
               sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-              gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-              turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-              tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-              quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-              volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-              mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-              tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
+
             </p>
             <p>
               Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
@@ -88,6 +83,7 @@ function About() {
       <Container>
         <Row>
           <Col size="md-12">
+            <h1>Skills</h1>
             <SkillBar skills={skills} />
           </Col>
         </Row>
