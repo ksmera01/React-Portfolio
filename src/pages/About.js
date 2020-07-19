@@ -42,7 +42,7 @@ function About() {
       <Container style={{ marginTop: 30 }} >
         <Row>
           <Col size="md-12">
-            <h1>About Me</h1>
+            <h1 className="headingFont">About Me</h1>
           </Col>
         </Row>
         <Row>
@@ -63,7 +63,8 @@ function About() {
       <Container>
         <Row>
           <Col size="md-12">
-            <h1>Skills</h1>
+            <h1 className="headingFont">Skills</h1>
+            <br></br>
             <SkillBar skills={skills} />
           </Col>
         </Row>

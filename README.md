@@ -6,6 +6,10 @@
 
   ![image description](./public/assets/portfolioss.png)
 
+  ![image description](./public/assets/aboutme.png)
+
+  ![image description](./public/assets/skills.png)
+
   ## Table of Contents
   
   - [Installation](#installation)
