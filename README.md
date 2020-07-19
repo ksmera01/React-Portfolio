@@ -4,7 +4,7 @@
 
   Welcome to my updated Portfolio page! This new page uses React.js to showcase my work, access contact information and give you a better overall picture of who I am as a developer. Please check out my website and feel free to reach out to me with any questions, comments or constructive criticism. I look forward to hearing from you!
 
-  ![image description](./assets/portfolioss.png)
+  ![image description](./public/assets/portfolioss.png)
 
   ## Table of Contents
   
