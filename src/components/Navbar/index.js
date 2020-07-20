@@ -1,41 +1,26 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+// import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Navbar() {
+const Navbar = () => {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light headerColor navbarFont justify-content-end">
-      <Link className="navbar-brand" to="/"><img className="iconKs" src="./assets/kslogo.png" alt="KS"></img>
-      Kevin Smeraglio
-      </Link>
-      <div className="nav item ml-auto mr-1"></div>
-      <div className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span className="navbar-toggler-icon"></span>
-      </div>
-      <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-        <ul className="navbar-nav text-center">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/discover"
-              className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-            </Link>
-          </li>
-        </ul>
+    <nav className="navbar navbar-expand-lg navbar-light headerColor navbarFont">
+      <a className="navbar-brand" href="/">
+        <img src="/assets/kslogo.png" alt="iconKS" />
+        <span className="">Kevin Smeraglio</span>
+      </a>
+      <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09">
+        <a className="nav-link text-center navbarFont" href="/">About</a>
+        <a className="nav-link text-center navbarFont" href="/discover">Portfolio</a>
       </div>
     </nav>
   );
