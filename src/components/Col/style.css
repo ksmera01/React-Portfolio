@@ -1,0 +1,13 @@
+.photoSize {
+  height: 450px;
+  width: 550px;
+  position: center;
+}
+
+.cardPosition {
+    position: center;
+}
+
+.textAlignCenter {
+    text-align: center;
+}

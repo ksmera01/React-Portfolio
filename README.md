@@ -10,6 +10,8 @@
 
   ![image description](./public/assets/skills.png)
 
+  ![image description](./public/assets/projects.png)
+
   ## Table of Contents
   
   - [Installation](#installation)
